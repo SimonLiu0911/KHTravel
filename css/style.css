@@ -1,0 +1,256 @@
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,p {
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  text-transform: none;
+}
+
+
+#wapper{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* herder */
+.khView{
+  position: relative;
+  background-image: url('https://upload.cc/i1/2019/01/08/vVp8gD.png');
+  width: 1024px;
+  height: 380px;
+}
+
+.title{
+      position: relative;
+      text-align: center;
+      font-size: 40px;
+      color: #FFFFFF;
+      letter-spacing: 3.89px;
+      top: 89px;
+}
+
+.area{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.70);
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  width: 452px;
+  height: 42px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 225px;
+  font-size: 18px;
+  font-weight: 450;
+}
+
+.box{
+      position: relative;
+      width: 800px;
+      height: 112px;
+      background: #FFFFFF;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+      border-radius: 5px;
+      left: 112px;
+      top: -52px;
+}
+
+.subtitle {
+      width: 91px;
+      height: 18px;
+      font-size: 18px;
+      color: #000000;
+      position: relative;
+      padding: 20px 0 0 26px;
+      margin: 0 auto;
+}
+
+.starArea {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 14px;
+}
+
+.starArea .btn{
+      border-radius: 5px;
+      width: 130px;
+      height: 42px;
+      font-size: 20px;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 42px;
+}
+
+.starArea .btn:first-child{
+  background-color: #8A82CC;
+}
+
+.starArea .btn:nth-child(2){
+  background: #FFA782;
+}
+
+.starArea .btn:nth-child(3){
+  background: #F5D005;
+}
+
+.starArea .btn:nth-child(4){
+  background: #559AC8;
+}
+
+.myMouse{
+  cursor: pointer;
+}
+
+/* content */
+.border img{
+  padding: 8px 4px;
+}
+
+.areaTitle{
+    position: relative;
+    font-size: 36px;
+    color: #8A82CC;
+    margin-top: 71px;
+    text-align: center;
+}
+
+.row{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 24px;
+}
+
+.row .boxCard{
+    margin: 0 16px 36px 0;
+    width: 464px;
+    height: 273px;
+    /* border: 1px solid; */
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+}
+.cover img{
+  width: 464px;
+  height: 155px;
+  background-repeat: no-repeat;
+}
+
+.barInfo{
+      position: relative;
+      bottom: 34px;
+}
+
+.barInfo .cityTitle{
+  position: relative;
+  display: inline;
+  left: 22px;
+  bottom: 14px;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.barInfo .barName{
+      position: relative;
+      float: right;
+      right: 24px;
+      bottom: 11px;
+      font-size: 16px;
+      color: #FFFFFF;
+}
+
+.areaInfo{
+    float: left;
+    position: absolute;
+    width: 450px;
+    /* left: 50px; */
+}
+
+.areaInfo .time{
+      position: relative;
+      display: flex;
+      top: -16px;
+}
+
+.areaInfo .time::before {
+  width: 16px;
+  height: 16px;
+  padding: 0 9px 8px 23px;
+}
+
+.time span{
+  margin: 0 30px;
+}
+
+.areaInfo .add{
+  position: relative;
+  top: -14px;
+}
+.areaInfo .add::before{
+  width: 16px;
+  height: 16px;
+  padding: 3px 9px 8px 23px;
+}
+
+.areaInfo .phone{
+  position: relative;
+  top: -10px;
+}
+.areaInfo .phone::before {
+  width: 16px;
+  height: 16px;
+  padding: 0 9px 8px 25px;
+}
+
+.time span, .add span, .phone span{
+  margin: 0 15px 0 30px;
+}
+
+.ticket{
+    float: right;
+    right: 20px;
+    top: 45px;
+    position: relative;
+}
+
+#footer{
+    position: relative;
+    margin-top: 107px;
+    background: #559AC8;
+    text-align: center;
+}
+
+.infoTitle{
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 24px 0 15px 0;
+}
+
+.infofSubtitle{
+    font-size: 14px;
+    color: #FFD366;
+    padding-bottom: 23px;
+}
+
+.goTop{
+    position: fixed;
+    right: 20px;
+    bottom: 35px;
+}
